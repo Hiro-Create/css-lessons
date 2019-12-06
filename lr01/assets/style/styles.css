@@ -126,6 +126,91 @@ html, input {
     
 }
 .active:hover {
-    border-bottom: solid #4285F4;
+    border-bottom: 3px solid #4285F4;
     padding: 0 0 10px;
+}
+
+a.active{
+    cursor: pointer;
+}
+
+.content {
+    
+
+  
+    background: #e6e6e6;
+
+}
+.content-wrapper {
+    width: 1420px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+
+.side-column {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.card{
+    width: 320px;
+    min-height: 260px;
+    padding: 24px;
+    background: #d9fbff;
+    border-radius: 4px;
+    margin-bottom: 22px;
+
+    box-sizing: border-box;
+
+    
+
+}
+
+.card-title{
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.text{
+    font-size: 15px;
+}
+
+.textAmsterdam {
+    font-size: 13px;
+}
+
+.amsterdam {
+    font-size: 12px;
+}
+
+.main-column {
+    border-radius: 4px 4px 0px 0px;
+
+    
+    
+
+}
+
+.picture{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    
+    padding: 17px 14px;
+}
+id#Bitmap{
+    position: relative;
+    
+}
+id#close {
+    position: absolute;
+    left: 0;
+    top: 0;
+
 }
