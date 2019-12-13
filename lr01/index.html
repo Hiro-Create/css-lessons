@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Google Search Redesign</title>
     <link href="assets/style/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +52,7 @@
     <div class="content">
         <div class="content-wrapper">
             <div class="side-column">
-                <div class="card">
+                <div class="card simple-text">
                     <h3 class="card-title">Top Results</h3>
                     <a class="text">I amsterdam - Your guide to visit, enjoy, live, work & invest in ...</a>
                     <p class="textAmsterdam">Official portal website of the City of Amsterdam, with everything you need
@@ -59,7 +60,7 @@
                         work, invest and do business in the Amsterdam Metropolitan Area.</p>
                     <a class="amsterdam">https://www.iamsterdam.com/</a>
                 </div>
-                <div class="card">
+                <div class="card simple-text">
                     <h3 class="card-title">About Amsterdam</h3>
                     <p class="text">Amsterdam is the capital and most populous municipality of the Netherlands. Its
                         status as the capital
@@ -67,10 +68,21 @@
                     <img src="assets/images/Wikipedia.png">
                     <span style="font-size: 13px;">Wikipedia</span>
                 </div>
+                <div class="fly">
+                        <img src="assets/images/flight - material.png">
+                        <span class="fly-text">Flights</span>
+                        <p class="price">1 h 10 min flight, from €174<br>
+                        4h 30 min 1 stop flight, from €207</p>
+                </div>
+                
+                        
             </div>
-            <div class="main-column">
-                <img id="Bitmap" src="assets/images/Bitmap Copy.png">
-                <img id="close" src="assets/images/close.png" style="background: red;">
+            <div>
+                <div class="con">
+                    <img src="assets/images/Bitmap Copy.png">
+                    <img src="assets/images/close.png" class="top">
+                </div>
+
                 <a class="picture">
                     <img src="assets/images/public - material.png">
                     <span>Visit</span>
@@ -78,20 +90,40 @@
                     <span>Save</span>
                     <img src="assets/images/share - material.png">
                     <span>Share</span>
-                    <span>More images</span>
-                    <img src="assets/images/arrow_forward - material.png">
                 </a>
             </div>
             <div class="side-column">
-                <div class="card-image">
-                    <img src="assets/images/Bitmap.png">
+                <div class="card card-image-map">
+
                 </div>
-                <div class="card-image">
-                    <img src="assets/images/bg.png">
+                <div class="card card-imageamsterdam">
+                    <h2 class="card-sidetittle">Amsterdam</h2>
+                    <span class="degree">24&deg;</span>
+
+                    <select class="table">
+                        <option>Today</option>
+                        <option>Tommorow</option>
+                    </select>
+
+                    <span class="time">9:00</span>
+                    <span class="time">12:00</span>
+                    <span class="time">15:00</span>
+                    <span class="time">18:00</span>
+                    <span class="time">20:00</span>
                 </div>
             </div>
+            
+                
+                
+                
+            </div>
         </div>
+
+
     </div>
+    </div>
+    </div>
+
 </body>
 
 </html>

@@ -144,6 +144,7 @@ a.active{
 .content-wrapper {
     width: 1420px;
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     padding-top: 44px;
 }
@@ -152,23 +153,27 @@ a.active{
 .side-column {
     display: flex;
     flex-direction: column;
+    
 
 
 }
 
-
+.simple-text{
+    background: #d9fbff;
+}
 .card{
     width: 320px;
-    min-height: 260px;
+    min-height: 260px;    
     padding: 24px;
-    background: #d9fbff;
     border-radius: 4px;
     margin-bottom: 22px;
+    box-sizing: border-box;    
 
-    box-sizing: border-box;
+  
+}
 
-    
-
+.card-image-map{
+    background-image: url(../images/Bitmap.png);
 }
 
 .card-title{
@@ -188,29 +193,87 @@ a.active{
     font-size: 12px;
 }
 
-.main-column {
-    border-radius: 4px 4px 0px 0px;
 
-    
-    
-
-}
 
 .picture{
+   
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     display: flex;
-    
-    padding: 17px 14px;
-}
-id#Bitmap{
-    position: relative;
-    
-}
-id#close {
-    position: absolute;
-    left: 0;
-    top: 0;
+    padding: 14px 17px;
+    align-items: left;
 
+    
+    
+    
+    
+}
+
+.con {
+    position: relative;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card-imageamsterdam{
+    /* width: 320px;  */
+    height: 260px; 
+    background:url(../images/bg.png);
+    padding: 24px 20px;
+    box-sizing: border-box;
+
+}
+.card-sidetittle{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.degree{
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.table{
+    display: flex;
+    font-weight: bold;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+}
+.time{
+    width: 35px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    flex: 2;
+    justify-content: flex-end;
+    padding: 22px 24px;
+    
+}
+.fly {
+ border-radius: 4px;
+ flex-direction: column;
+ background: #4285F4;
+ color: #FFFFFF;
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+ padding: 23px 24px 10px;
+ 
+ 
+}
+.fly-text {
+    font-weight: 900;
+    font-size: 18px;
+    padding: 61px 24px;
+}
+.price{
+    font-size: 15px;
+    font-weight: 500;
+    
+   
 }
