@@ -195,19 +195,27 @@ a.active{
 
 
 
-.picture{
-   
+.pictureline{
+    height:14px;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    display: flex;
-    padding: 14px 17px;
-    align-items: left;
+    border: none; 
+    display: flex:
+}
 
-    
-    
-    
-    
+.picture{
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.picturetext {
+    height: 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+    margin-right: 30px;
 }
 
 .con {
@@ -245,15 +253,27 @@ a.active{
     font-size: 13px;
     background: transparent;
     border: none;
+   
+}
+
+.amsterdamtime{ 
+    display: flex;
+    justify-content: flex-end; 
+    padding: 24px 24px;
+    
 }
 .time{
-    width: 35px;
-    height: 16px;
-    font-size: 13px;
-    font-weight: 600;
-    flex: 2;
-    justify-content: flex-end;
-    padding: 22px 24px;
+ 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+    margin-right: 30px;
+    text-align: right;
+    
+    
     
 }
 .fly {
@@ -276,4 +296,26 @@ a.active{
     font-weight: 500;
     
    
+}
+
+.more {
+    
+    border: none; 
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    padding: 17px 9px;
+
+}
+
+.moretext {
+    height: 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+    margin-right: 30px;
+    text-align: right;
 }
