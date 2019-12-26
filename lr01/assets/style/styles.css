@@ -138,7 +138,7 @@ a.active{
     
 
   
-    background: #e6e6e6;
+    background: #fff;
 
 }
 .content-wrapper {
@@ -158,8 +158,8 @@ a.active{
 
 }
 
-.simple-text{
-    background: #d9fbff;
+.card simple-text{
+    background: #fff;
 }
 .card{
     width: 320px;
@@ -183,39 +183,44 @@ a.active{
 }
 .text{
     font-size: 15px;
+    color: #4885ED;
 }
-
+.textams{
+   font-size: 15px;
+}
 .textAmsterdam {
     font-size: 13px;
 }
 
 .amsterdam {
     font-size: 12px;
+    color: #39912E;
 }
 
 
 
 .pictureline{
-    height:14px;
+    height:390px;
     font-size: 14px;
     border: none; 
-    display: flex:
+    width: 664px;
 }
 
 .picture{
     flex: 2;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .picturetext {
-    height: 17px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
+    
+    
     font-size: 14px;
-    line-height: 17px;
-    list-style: none;
-    margin-right: 30px;
+    
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+    
 }
 
 .con {
@@ -263,16 +268,11 @@ a.active{
     
 }
 .time{
- 
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    list-style: none;
-    margin-right: 30px;
-    text-align: right;
-    
+    margin-right: 4px;
+    margin-left: 13px;
+    margin-top: 50px;
     
     
 }
@@ -309,13 +309,89 @@ a.active{
 }
 
 .moretext {
-    height: 17px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
+   
     font-size: 14px;
     line-height: 17px;
-    list-style: none;
     margin-right: 30px;
-    text-align: right;
+    
+}
+
+.textpicture{
+   
+    width: 664px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  
+}
+
+.text1{
+
+font-size: 14px;
+padding-bottom: 20px;
+margin: 0;
+}
+
+.text2{
+font-size: 16px;
+color: #4285F4;
+}
+
+.text3{
+font-size: 13px;
+
+}
+
+.hotel{
+    
+    width: 320px;
+    border-radius: 4px;
+ flex-direction: column;
+ background: #212121;;
+ color: #FFFFFF;
+ padding: 23px 24px 10px;
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+ padding-left: 15px;
+ 
+}
+
+.hotel-text{
+    font-weight: 900;
+    font-size: 18px;
+    padding: 61px 24px;
+}
+
+.hotel-price{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.speak{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 23px;
+    
+}
+.translate{
+    width:320px;
+    border-radius: 8px;
+ flex-direction: column;
+ background: #fff;
+ 
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162); 
+ padding: 23px 24px 10px;
+}
+.translate-table{
+    width: 91px;
+    display:flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: auto;
+}
+.translate-text{
+    Font-Style: Bold;
+    font-Size: 36px;
 }
